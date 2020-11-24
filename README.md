@@ -1,1 +1,3 @@
-# some examples on manipulate ckan using ckanapi python module
+# Några exempel på hur man kan manipulera sin ckan via pythons ckanapi-modul
+
+Exemplen bygger på Malmö stads öppna data plattform
