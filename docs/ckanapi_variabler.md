@@ -97,5 +97,5 @@ http://publications.europa.eu/resource/authority/data-theme/SOCI
 http://publications.europa.eu/resource/authority/data-theme/REGI 
 * Vetenskap och teknik 
 http://publications.europa.eu/resource/authority/data-theme/TECH 
-Transport 
-* http://publications.europa.eu/resource/authority/data-theme/TRAN 
+* Transport 
+http://publications.europa.eu/resource/authority/data-theme/TRAN 
