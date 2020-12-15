@@ -113,21 +113,7 @@ idinfo = paketinfo['id']
 # print("Paket är skapat med id: " + idinfo)
 
 
-
-
-
-
-#test
-#try:
-#        mysite.call_action('resource_create',
-#        {'package_id': '05f35a09-c7d3-44a3-bddb-8708f9bcdbf8', 'name': kpiinfo + "(" +kpi + ")" , 'description': beskrivning},
-#       
-#             files={'upload': open(path + kpiinfo + ' -' + kpi + '.csv', 'rb')})
-#except (NotAuthorized, NotFound,ValidationError, SearchQueryError, SearchError, CKANAPIError, ServerIncompatibleError) as e:
-#        print (e)
-#        print (e.args)
-
-#prod
+#ladda upp filen till datamängden
 try:
         malmoapi.call_action('resource_create',
         {'package_id': idinfo, 'name': kpiinfo +" (" +kpi +")" , 'description': beskrivning},
