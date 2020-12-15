@@ -12,7 +12,6 @@ kommun = '1280'
 #kpi = 'N01804'
 kpi = str(sys.argv[1])
 #ange vilken url som ska hämtas in
-paketid = '2ef826c1-e938-4362-9baa-b1b60dd9517b'
 url = 'https://api.kolada.se/v2/data/municipality/' #ange url
 toturl = (url + kommun + '/kpi/' + kpi) #bygg ihop urlen
 response = requests.get(toturl) #hämta ovanstående url
